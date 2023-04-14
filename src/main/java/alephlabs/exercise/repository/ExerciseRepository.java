@@ -1,8 +1,10 @@
 package alephlabs.exercise.repository;
 
-import org.springframework.stereotype.Component;
+import alephlabs.exercise.domain.Test;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-@Component
-public class ExerciseRepository {
+@Repository
+public interface ExerciseRepository extends JpaRepository<Test, Integer> {
 
-   }
+}
