@@ -19,4 +19,9 @@ public class ExerciseService {
         return ExerciseRepository.findAll();
     }
 
+    public Test saveTestRecord(String name)
+    {
+        return ExerciseRepository.save(new Test(name));
+    }
+
 }
