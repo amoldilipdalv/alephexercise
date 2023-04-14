@@ -1,2 +1,2 @@
-# userService
-user service project id created to store and retrieve user information
+# alephLabsExercise
+Aleph Labs Exercise is created for technical round exercise 
